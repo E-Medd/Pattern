@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "tailwindcss": "^2.2.15"
+  },
+  "name": "e-med",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i ./assets/styles/tailwind.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+ 

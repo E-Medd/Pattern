@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply box-border p-0 m-0;
+}
+h1{
+  @apply text-3xl font-semibold leading-tight;
+}
+img{
+  @apply w-full;
+}
+h1{
+  @apply font-light text-xl mx-2.5 leading-tight;
+}
+.contain{
+  @apply my-auto overflow-visible px-9;
+}
+.navbar{
+  @apply bg-blue-400 bg-blend-lighten md:bg-blend-darken h-20 py-8;
+}
+.navbar a{
+  @apply text-white p-4 my-2.5;
+}
+.navbar a:hover{
+  @apply border-b-2 border-white;
+}
+.logo{
+  @apply w-6 h-4;
+}
+.showcase-text{
+  @apply text-sm;
+}
+.showcase p{
+  @apply mb-8;
+}
+
+.grid-item-1, 
+.grid-item-2 {
+  @apply relative top-14;
+}
+.btn {
+  @apply rounded-md px-5 py-3 bg-red-700 border-none ml-2.5 text-white text-base cursor-pointer;
+}
