@@ -8,7 +8,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "tailwindcss build -i ./assets/styles/tailwind.css -o ./public/styles.css"
+    "build-css": "tailwindcss build -i ./assets/styles/tailwind.css -o ./root/styles.css"
   },
   "keywords": [],
   "author": "",
